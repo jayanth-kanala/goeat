@@ -10,7 +10,7 @@
 
  // Open a MySQL connection
 
-        $link = mysql_connect('mysql5.000webhost.com', 'a6142793_b', 'jayanth_1991');
+        $link = mysql_connect('localhost', 'jay', 'jay');
 
         if (!$link) {
 
@@ -20,7 +20,7 @@
 // Select the database to work with
 
 
-        $db = mysql_select_db('a6142793_b');
+        $db = mysql_select_db('goeat');
 
         if (!$db) {
             die('Selected database unavailable: ' . mysql_error());

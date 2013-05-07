@@ -37,7 +37,7 @@ document.getElementById("output").innerHTML="<img src='./images/45.gif'/>";
                 count = text.split("!!!");  
                 //alert(count[1]);
                document.getElementById("output").innerHTML=count[1];
-          alert(count);
+          //alert(count);
             }
             else {
                 document.getElementById("output").innerHTML=xmlhttp.responseText;
